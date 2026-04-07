@@ -299,7 +299,6 @@ Implement `UserDetailsService` to load users from your data source.
 -  **refresh token** mechanism with token rotation
 -  **rate limiting** on login endpoint (e.g., using Bucket4j or Redis)
 -  **account lockout** after failed login attempts
--  **asymmetric keys (RS256)** instead of symmetric HMAC for JWT signing
 -  **audit logging** for security events
 -  **Redis** for token blacklisting on logout
 
